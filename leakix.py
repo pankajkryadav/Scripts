@@ -1,8 +1,3 @@
-# uncompyle6 version 3.9.0a1
-# Python bytecode version base 2.7 (62211)
-# Decompiled from: Python 3.10.4 (main, Mar 24 2022, 13:07:27) [GCC 11.2.0]
-# Embedded file name: grabip.py
-# Compiled at: 2020-12-15 03:39:46
 import requests, json, os
 from colorama import Fore
 from multiprocessing.dummy import Pool
@@ -41,4 +36,3 @@ try:
 
 except:
     print Fore.RED + 'Error' + Fore.WHITE
-# okay decompiling grabip.pyc
